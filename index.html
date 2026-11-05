@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080a0f">
+  <meta name="description" content="Layanan joki Mobile Legends dengan checkout praktis dan konfirmasi melalui WhatsApp.">
+  <title>NOVA BOOST — Mobile Legends Service</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="NOVA BOOST beranda">
+        <span class="brand-mark">N</span>
+        <span class="brand-name">NOVA<span>BOOST</span></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="mainNav">
+        <a href="#services">Layanan</a>
+        <a href="#how">Cara Pesan</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-cta" href="#order">Mulai Pesan <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="status-pill"><span class="status-dot"></span> MOBILE LEGENDS SERVICE</div>
+          <p class="eyebrow">PLAY SMART. RANK HIGHER.</p>
+          <h1>YOUR NEXT<br><span class="outline-text">RANK STARTS</span><br>HERE<span class="accent">.</span></h1>
+          <p class="hero-description">Fokus ke permainanmu. Pilih layanan yang kamu butuhkan, isi detail pesanan, dan konfirmasi langsung bersama admin.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#order">BUAT PESANAN <span>↗</span></a>
+            <a class="button button-ghost" href="#services">JELAJAHI LAYANAN</a>
+          </div>
+          <div class="hero-footnote"><span class="mini-line"></span> SIMPLE ORDERING · DIRECT CONFIRMATION</div>
+        </div>
+        <div class="hero-visual" aria-label="Ilustrasi dekoratif futuristik">
+          <div class="visual-grid"></div>
+          <div class="visual-ring ring-one"></div>
+          <div class="visual-ring ring-two"></div>
+          <div class="visual-cross cross-one">＋</div>
+          <div class="visual-cross cross-two">＋</div>
+          <div class="rank-orb">
+            <div class="orb-inner">
+              <span class="orb-top">RANK UP</span>
+              <strong>ML</strong>
+              <span class="orb-bottom">BOOST SYSTEM</span>
+            </div>
+          </div>
+          <div class="visual-label label-top"><span>01 / SERVICE</span><b>RANK BOOST</b></div>
+          <div class="visual-label label-bottom"><span>ONLINE ORDER</span><b>24/7 FORM ACCESS</b></div>
+          <div class="visual-coordinates">07° 58' S<br>112° 37' E</div>
+        </div>
+      </div>
+      <div class="container hero-strip">
+        <span>01 <b>CHOOSE SERVICE</b></span><i></i><span>02 <b>CHECKOUT</b></span><i></i><span>03 <b>CONFIRM VIA WHATSAPP</b></span>
+      </div>
+    </section>
+
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 / WHAT WE DO</p><h2>SELECT YOUR<br><span class="muted-heading">MISSION.</span></h2></div>
+          <p class="section-intro">Pilih layanan sesuai target permainanmu. Harga di bawah adalah harga awal contoh dan dapat diubah melalui konfigurasi JavaScript.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card featured-service">
+            <div class="card-topline"><span>01 / MOST REQUESTED</span><span class="card-icon">↗</span></div>
+            <div class="service-symbol">✳</div>
+            <h3>RANK<br>BOOST</h3>
+            <p>Bantuan push rank dari tier saat ini menuju target yang kamu pilih.</p>
+            <div class="service-price">Rp15.000 <small>/ bintang</small></div>
+            <button class="text-link choose-service" data-service="rank">PILIH LAYANAN <span>→</span></button>
+          </article>
+          <article class="service-card">
+            <div class="card-topline"><span>02 / WIN RATE</span><span class="card-icon">⌁</span></div>
+            <div class="service-symbol">◈</div>
+            <h3>WIN RATE<br>BOOST</h3>
+            <p>Bantuan menambah kemenangan match sesuai jumlah yang kamu tentukan.</p>
+            <div class="service-price">Rp10.000 <small>/ match</small></div>
+            <button class="text-link choose-service" data-service="wr">PILIH LAYANAN <span>→</span></button>
+          </article>
+          <article class="service-card">
+            <div class="card-topline"><span>03 / CUSTOM</span><span class="card-icon">＋</span></div>
+            <div class="service-symbol">⌘</div>
+            <h3>CUSTOM<br>REQUEST</h3>
+            <p>Punya kebutuhan berbeda? Sampaikan detailnya kepada admin.</p>
+            <div class="service-price">BY DISCUSSION</div>
+            <button class="text-link choose-service" data-service="custom">PILIH LAYANAN <span>→</span></button>
+          </article>
+        </div>
+        <p class="disclaimer">*Harga merupakan estimasi awal. Harga final, ketersediaan, dan estimasi pengerjaan wajib dikonfirmasi admin sebelum pesanan disetujui.</p>
+      </div>
+    </section>
+
+    <section class="section order-section" id="order">
+      <div class="container">
+        <div class="section-heading order-heading">
+          <div><p class="eyebrow">02 / CHECKOUT SYSTEM</p><h2>BUILD YOUR<br><span class="muted-heading">ORDER.</span></h2></div>
+          <p class="section-intro">Isi formulir berikut dengan benar. Kamu akan melihat ringkasan sebelum diarahkan ke WhatsApp admin.</p>
+        </div>
+
+        <div class="checkout-layout">
+          <form class="order-form panel" id="orderForm">
+            <div class="panel-heading"><span class="step-number">01</span><div><h3>ORDER DETAILS</h3><p>Informasi pesanan kamu</p></div></div>
+            <div class="form-grid">
+              <div class="field full">
+                <label for="customerName">Nama / nickname <em>*</em></label>
+                <input id="customerName" name="customerName" type="text" maxlength="50" placeholder="Masukkan nama atau nickname" required>
+              </div>
+              <div class="field">
+                <label for="serviceType">Pilih layanan <em>*</em></label>
+                <select id="serviceType" name="serviceType" required>
+                  <option value="rank">Rank Boost</option>
+                  <option value="wr">Win Rate Boost</option>
+                  <option value="custom">Custom Request</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="currentRank">Rank saat ini <em>*</em></label>
+                <select id="currentRank" name="currentRank">
+                  <option>Warrior</option><option>Elite</option><option>Master</option>
+                  <option>Grandmaster</option><option>Epic</option><option>Legend</option>
+                  <option>Mythic</option><option>Mythical Honor</option>
+                  <option>Mythical Glory</option><option>Mythical Immortal</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="targetRank">Target rank / tujuan <em>*</em></label>
+                <select id="targetRank" name="targetRank">
+                  <option>Epic</option><option>Legend</option><option>Mythic</option>
+                  <option>Mythical Honor</option><option>Mythical Glory</option>
+                  <option>Mythical Immortal</option><option>Tambah 1 bintang</option>
+                  <option>Tambah 5 bintang</option><option>Tambah 10 bintang</option>
+                  <option>Custom (diskusi)</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="quantity" id="quantityLabel">Jumlah bintang <em>*</em></label>
+                <input id="quantity" name="quantity" type="number" min="1" max="100" value="1" required>
+              </div>
+              <div class="field full">
+                <label for="contact">Kontak WhatsApp kamu (opsional)</label>
+                <input id="contact" name="contact" type="tel" maxlength="20" placeholder="Contoh: 62812xxxxxxxx">
+              </div>
+              <div class="field full">
+                <label for="notes">Catatan tambahan</label>
+                <textarea id="notes" name="notes" maxlength="500" rows="4" placeholder="Tulis request atau informasi tambahan (opsional)"></textarea>
+              </div>
+            </div>
+            <div class="form-safety"><span>ⓘ</span><p>Jangan masukkan password, kode OTP, atau informasi rahasia akun ke formulir. Diskusikan kebutuhan akses secara aman dengan admin bila diperlukan.</p></div>
+            <button class="button button-primary submit-button" type="submit">REVIEW PESANAN <span>↗</span></button>
+          </form>
+
+          <aside class="summary-column">
+            <div class="summary-card panel">
+              <div class="panel-heading"><span class="step-number">02</span><div><h3>ORDER SUMMARY</h3><p>Ringkasan otomatis</p></div></div>
+              <div class="summary-list">
+                <div><span>Layanan</span><b id="summaryService">Rank Boost</b></div>
+                <div><span>Rank saat ini</span><b id="summaryCurrent">Warrior</b></div>
+                <div><span>Target</span><b id="summaryTarget">Epic</b></div>
+                <div><span>Jumlah</span><b id="summaryQuantity">1</b></div>
+              </div>
+              <div class="summary-total"><span>ESTIMASI TOTAL</span><strong id="summaryPrice">Rp15.000</strong></div>
+              <p class="summary-note">Harga final akan dikonfirmasi admin. Tidak ada pembayaran otomatis di website ini.</p>
+            </div>
+            <div class="secure-note"><span class="secure-icon">◈</span><div><b>DIRECT ADMIN CONFIRMATION</b><p>Detail pesanan dikirim ke WhatsApp agar admin dapat mengonfirmasi harga dan ketersediaan.</p></div></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process-section" id="how">
+      <div class="container">
+        <div class="section-heading"><div><p class="eyebrow">03 / HOW IT WORKS</p><h2>THREE STEPS.<br><span class="muted-heading">ONE EASY ORDER.</span></h2></div></div>
+        <div class="process-grid">
+          <div class="process-item"><span>01</span><h3>CHOOSE</h3><p>Pilih layanan, rank awal, target, dan jumlah yang kamu inginkan.</p></div>
+          <div class="process-item"><span>02</span><h3>REVIEW</h3><p>Periksa ringkasan dan estimasi harga sebelum mengirim pesanan.</p></div>
+          <div class="process-item"><span>03</span><h3>CONFIRM</h3><p>Lanjut ke WhatsApp untuk membahas harga final dan proses pengerjaan.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="container faq-layout">
+        <div><p class="eyebrow">04 / NEED TO KNOW</p><h2>FREQUENT<br><span class="muted-heading">QUESTIONS.</span></h2></div>
+        <div class="faq-list">
+          <details><summary>Apakah pesanan langsung diproses setelah checkout?</summary><p>Belum. Checkout hanya menyiapkan detail pesanan dan mengarahkannya ke WhatsApp. Pesanan berlaku setelah admin mengonfirmasi harga, ketersediaan, dan detail pengerjaan.</p></details>
+          <details><summary>Apakah website menerima pembayaran otomatis?</summary><p>Belum. Website versi ini tidak memproses pembayaran dan tidak menyimpan data transaksi di server. Metode pembayaran dibicarakan langsung dengan admin.</p></details>
+          <details><summary>Apakah harga di website sudah final?</summary><p>Harga yang ditampilkan adalah estimasi contoh. Admin akan memberikan konfirmasi harga final sebelum kamu menyetujui pesanan.</p></details>
+          <details><summary>Apakah saya harus memasukkan password akun?</summary><p>Tidak. Jangan masukkan password atau OTP ke formulir website. Jika detail akses dibutuhkan, bicarakan secara aman dengan admin dan pertimbangkan risiko keamanan akun.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand" href="#home"><span class="brand-mark">N</span><span class="brand-name">NOVA<span>BOOST</span></span></a>
+      <p>PLAY SMART. RANK HIGHER.</p>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> NOVA BOOST. All rights reserved.</span><span>Independent service. Not affiliated with MOONTON Games.</span></div>
+  </footer>
+
+  <dialog class="review-dialog" id="reviewDialog">
+    <div class="dialog-top"><span class="eyebrow">FINAL REVIEW / 02</span><button class="dialog-close" id="closeDialog" aria-label="Tutup">×</button></div>
+    <h2>CONFIRM<br><span class="muted-heading">YOUR ORDER.</span></h2>
+    <p class="dialog-intro">Periksa detail berikut. Setelah dilanjutkan, WhatsApp akan terbuka dengan pesan yang sudah disiapkan.</p>
+    <div class="review-details" id="reviewDetails"></div>
+    <div class="dialog-actions">
+      <button class="button button-ghost" type="button" id="editOrder">EDIT ORDER</button>
+      <button class="button button-primary" type="button" id="sendWhatsApp">SEND TO WHATSAPP ↗</button>
+    </div>
+    <p class="dialog-disclaimer">Dengan melanjutkan, kamu hanya mengirim permintaan konfirmasi. Belum ada transaksi atau pembayaran yang terjadi.</p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
