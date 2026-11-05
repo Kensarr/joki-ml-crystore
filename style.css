@@ -206,3 +206,84 @@ h1,h2,h3,p{margin-top:0}
     overflow-x: hidden;
   }
 }
+
+/* =================================
+   NOVA BOOST - MOBILE LAYOUT FIX V2
+================================= */
+
+@media screen and (max-width: 850px) {
+
+  html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+
+  .site-header,
+  main,
+  .hero,
+  .section,
+  .site-footer {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .container {
+    width: calc(100% - 34px) !important;
+    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .hero-grid {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100% !important;
+    gap: 30px !important;
+  }
+
+  .hero-copy {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .hero h1 {
+    width: 100% !important;
+    font-size: clamp(58px, 13vw, 82px) !important;
+    line-height: 0.92 !important;
+    letter-spacing: -2px !important;
+    overflow-wrap: normal !important;
+  }
+
+  .hero-description {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 13px !important;
+  }
+
+  .hero-visual {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 330px !important;
+  }
+
+  .hero-actions {
+    width: 100% !important;
+  }
+
+  .hero-actions .button {
+    width: 100% !important;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .checkout-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  .faq-layout {
+    grid-template-columns: 1fr !important;
+  }
+}
