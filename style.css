@@ -287,3 +287,120 @@ h1,h2,h3,p{margin-top:0}
     grid-template-columns: 1fr !important;
   }
 }
+
+
+/* =====================================
+   NOVA BOOST - FULL WIDTH MOBILE FIX V3
+===================================== */
+
+@media screen and (max-width: 850px) {
+
+  html {
+    width: 100% !important;
+    min-width: 0 !important;
+    overflow-x: hidden !important;
+  }
+
+  body {
+    width: 100% !important;
+    min-width: 0 !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+  }
+
+  .site-header,
+  main,
+  .site-footer {
+    display: block !important;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    min-width: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .container {
+    width: calc(100% - 32px) !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .nav-wrap {
+    width: calc(100% - 32px) !important;
+  }
+
+  .hero {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .hero-grid {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    width: 100% !important;
+    gap: 30px !important;
+  }
+
+  .hero-copy {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .hero h1 {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: clamp(54px, 14vw, 76px) !important;
+    line-height: 0.92 !important;
+    letter-spacing: -1.5px !important;
+    overflow-wrap: normal !important;
+  }
+
+  .hero-description {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .hero-actions {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .hero-actions .button {
+    width: 100% !important;
+  }
+
+  .hero-visual {
+    display: grid !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 320px !important;
+    min-width: 0 !important;
+  }
+
+  .service-grid,
+  .checkout-layout,
+  .faq-layout {
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100% !important;
+  }
+
+  .service-card,
+  .order-form,
+  .summary-card {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .form-grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  .field.full {
+    grid-column: auto !important;
+  }
+}
